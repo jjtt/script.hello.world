@@ -15,7 +15,7 @@
 		<source>https://github.com/jjtt/script.mpd.play.pause.toggle.git</source>
 		<website>Kodi.tv</website>
 		<assets>
-			<icon>icon.png</icon>
+			<icon>resources/icon.png</icon>
 		</assets>
 	</extension>
 </addon>
