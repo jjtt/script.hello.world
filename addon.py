@@ -1,11 +1,13 @@
 import xbmcaddon
 import xbmcgui
+from subprocess import call
  
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
+icon        = addon.getAddonInfo('icon')
+
+call(["/usr/bin/mpc", "toggle"])
  
-line1 = "Hello World!"
-line2 = "We can write anything we want here"
-line3 = "Using Python"
+msg = "Play/Pause"
  
-xbmcgui.Dialog().ok(addonname, line1, line2, line3)
+xbmcgui.Dialog().notification(addonname, msg, icon, 1000)
