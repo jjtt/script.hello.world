@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.hello.world" name="Hello World" version="1.0.1" provider-name="zag">
+<addon id="script.mpd.play.pause.toggle" name="MPD Play/Pause-toggle" version="1.0.0" provider-name="jjtt">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -8,21 +8,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Popup Hello World</summary>
-		<description lang="en">Example Script to show hello world</description>
+		<summary lang="en">MPD Play/Pause-toggle</summary>
+		<description lang="en">Add-on for sending play/pause -commands to a local MPD isntance</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
-		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
-		<source>https://github.com/zag2me/script.hello.world</source>
+		<source>https://github.com/jjtt/script.mpd.play.pause.toggle.git</source>
 		<website>Kodi.tv</website>
-		<email>zag@kodi.org</email>
 		<assets>
 			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>
 </addon>
