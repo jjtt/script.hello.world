@@ -9,7 +9,7 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">MPD Play/Pause-toggle</summary>
-		<description lang="en">Add-on for sending play/pause -commands to a local MPD isntance</description>
+		<description lang="en">Add-on for sending play/pause -commands to a local MPD instance</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
 		<source>https://github.com/jjtt/script.mpd.play.pause.toggle.git</source>
